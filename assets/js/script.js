@@ -26,11 +26,11 @@ console.log('Ciao mi chiamo ' + nome + ' ' + cognome);
 let a = 10;
 let b = 5;
 console.log(a + ' + ' + b + ' = ' + (a + b));
-console.log(a + ' + ' + b + ' = ' + (a - b));
-console.log(a + ' + ' + b + ' = ' + (a * b));
-console.log(a + ' + ' + b + ' = ' + (a / b));
-console.log(a + ' + ' + b + ' = ' + (a % b));
-console.log(a + ' + ' + b + ' = ' + (a ** b));
+console.log(a + ' - ' + b + ' = ' + (a - b));
+console.log(a + ' * ' + b + ' = ' + (a * b));
+console.log(a + ' / ' + b + ' = ' + (a / b));
+console.log(a + ' % ' + b + ' = ' + (a % b));
+console.log(a + ' ** ' + b + ' = ' + (a ** b));
 
 /* ESERCIZIO 3 — Età nel tempo
    const annoNascita (scegli un anno).
