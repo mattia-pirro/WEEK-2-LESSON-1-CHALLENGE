@@ -53,14 +53,15 @@ console.log('5 anni fa avevi ' + ((annoCorrente - annoNascita) - 5) + ' anni');
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let età = 24;
+let eta;
+eta = 24;
 let maggiorenne;
-if (età >= 18) {
+if (eta >= 18) {
    maggiorenne = true;
 } else {
    maggiorenne = false;
 }
-console.log('Età: ' + età + ' - Maggiorenne: ' + maggiorenne);
+console.log('Età: ' + eta + ' - Maggiorenne: ' + maggiorenne);
 
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.
